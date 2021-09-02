@@ -14,4 +14,4 @@ contract FirstToken {
     uint256 public _limitSupply = (totalSupply/10);
     address private admin;
 
-    
+  }   
