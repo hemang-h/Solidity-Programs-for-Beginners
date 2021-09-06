@@ -13,6 +13,7 @@ contract FirstToken {
     uint256 public totalSupply = 10000;
     uint256 public _limitSupply = (totalSupply/10);
     address private admin;
+    address private bengali;
     
     constructor () ERC20 ("TimeLock", "TimeLock"){
       
